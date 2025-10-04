@@ -1,0 +1,50 @@
+name: _404
+description: "Ao io ci provo a fa na roba tipo Spotify"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Audio
+  just_audio: ^0.9.37
+  just_audio_background: ^0.0.1-beta.10
+  audio_session: ^0.1.18
+
+  # Network
+  dio: ^5.4.0
+
+  # Functions Programming (per Either)
+  dartz: ^0.10.1
+
+  # Storage
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+
+  # Image Handling
+  cached_network_image: ^3.3.0
+  image_picker: ^1.0.5
+  
+  # File Upload
+  file_picker: ^10.3.3
+  
+  # UI
+  flutter_slidable: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.9
+flutter:
+  # the material Icons class.
+  uses-material-design: true
