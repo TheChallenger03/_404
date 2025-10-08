@@ -1,5 +1,8 @@
 class ApiConstants {
-  static const String baseUrl = 'https://aldariel.servemp3.com';
+  static const String localUrl = 'http://localhost:8000';
+  static const String remoteUrl = 'http://192.168.1.66:8000'; // aldariel.servemp3.com
+  static const String androidEmulatorUrl = 'http://10.0.2.2:8000';
+  static const String baseUrl = remoteUrl;
   
   // Auth endpoints
   static const String loginEndpoint = '/api/auth/login';
